@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .body1 {
+            width: 100vw;
+            height: 100vh;
+            background-image: url(hero.jpg);
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+   
+        .head {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 25px;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+        li {
+            display: inline-block;
+            padding: 7px;
+            
+        }
+        li a{
+           color: white;
+           text-decoration: none;
+        }
+        li a:hover{
+           color: orange;
+           
+        }
+
+     
+        .under1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 1000;
+            height: 200px;
+            color: white;
+            font-size: 20px;
+            border-radius: 8px;
+        }
+        .h1under1{
+
+                font-size: 100px;
+
+        }
+        .punder1{
+margin-top: 10px;
+                font-size: 30px;
+margin-bottom: 30px;
+
+        }
+        .aunder1{
+
+                background-color: blue;
+                padding: 20px;
+                border-radius: 30px;
+                text-decoration: none;
+                margin-top: 100px;
+                color: white;
+        }
+        .aunder1:hover{
+
+background-color: black;
+
+}
+.logo{
+
+    color: white;
+}
+.body2{
+
+background-color: white;
+width: 100vw;
+height:100vh;
+
+}
+
+ .head2{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            gap: 15px;
+
+ }
+ .galary{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            flex-shrink: 1;
+              
+ }
+ .galary1{
+
+        display: flex;
+        flex-direction: row;
+    flex-wrap: nowrap;
+
+ }
+ .galary2{
+
+flex-wrap: nowrap;
+display: flex;
+flex-direction: row;
+
+ }
+ img{
+
+margin: 20px;
+width: 250px;
+height: 250px;
+ }
+ .img1{
+   
+width: 450px;
+
+ }
+ .head3{
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            gap: 20px;
+            padding-top: 20px;
+
+ }
+ .body3{
+
+background-color:  rgb(194, 194, 194);
+width: 100vw;
+height:60vh;
+
+}
+.col{
+
+ display: flex;
+ flex-direction: row;
+ gap: 30px;
+ margin-top: 60px;
+ text-align: center;
+ margin-left: 50px ;
+ margin-right: 50px;
+ 
+
+}
+ .col h3 {
+
+margin-bottom: 10px;
+
+ }
+ .col p {
+
+    gap: 5px;
+    line-height: 25px;
+    height: 50px;
+
+ 
+
+ }
+.body4{
+
+width: 100vw;
+height: 80vh;
+background-color: rgb(194, 194, 194);
+
+}
+.head4{
+          
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            gap: 20px;
+            padding-top: 20px;
+
+}
+    .in{
+margin-top: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+    }
+    .in input{
+
+            width: 400px;
+            height: 40px;
+            font-size: 20px;
+            padding: 5px;
+            
+
+    }
+    .in a {
+
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+        margin: 20px;
+        padding: 10px;
+    }
+    .in a:hover{
+
+        background-color: black;
+
+
+    }
+    footer{
+
+width: 100vw;
+height: 200px;
+background-color: black;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 150px;
+
+    }
+    @media screen and (max-width: 992px) {
+.head{
+flex-direction: column;
+
+}
+li{
+text-align: center;
+
+}
+nav{
+
+    text-align: center;
+}
+.logo{
+
+    text-align: center;
+}
+
+.col{
+
+
+flex-direction: column;
+
+}
+.in{
+
+flex-direction: column;
+
+}
+.body3{
+
+height: 100vh;
+
+}
+
+ }
+.color{
+
+background-color: rgba(0, 0, 0, 0.262);
+
+}
+
+  
+
+
+    </style>
+</head>
+<body>
+   
+    <div id="bd1" class="body1">
+       
+        <div class="head">
+            <div class="logo">
+                <h2>Website Logo</h2>
+            </div>
+            <div class="list">
+                <nav>
+                    <ul>
+                        <li><a href="#bd1">Home</a></li>
+                        <li><a href="#bd2">product</a></li>
+                        <li><a href="#bd3">about</a></li>
+                        <li><a href="#bd4">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+  
+
+        <div class="under1">
+       
+        <div>
+            <h1 class="h1under1">Responsive Flex Box</h1>
+        </div>
+        <div>
+            <p class="punder1">A freebie by Tutorialzine</p>
+        </div>
+        <div>
+            <a class="aunder1" href="#">DOWNLOAD IT HERE</a>
+        </div>
+    </div>
+    </div>
+        <div id="bd2" class="body2">
+            <div class="head2">       
+                   <h2>some of our work</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus iste eius voluptates quia deleniti consequuntur laborum in minima eligendi,<br> <span style="text-align: center;">sit fuga tempora quam quibusdam excepturi omnis? Quae in blanditiis perferendis?</span></p>  
+                    <hr width="100px" color="blue" text-align="center">
+
+                </div>
+                <div class="galary">
+                    <div class="galary1">
+                    <img  src="coast.jpg" alt="">
+                    <img  class="img1"  src="island.jpg" alt="">
+                </div>
+                <div class="galary2">
+                    <img class="img1"  src="balloon2.jpg" alt="">
+                    <img  src="mountain.jpg" alt="">
+                </div>    
+
+                </div>
+
+                </div>
+        </div>
+
+        <div id="bd3" class="body3">
+            <div class="head3">       
+                <h1>features and services</h1>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus iste eius voluptates quia deleniti consequuntur laborum in minima eligendi,<br> <span style="text-align: center;">sit fuga tempora quam quibusdam excepturi omnis? Quae in blanditiis perferendis?</span></p>  
+                 <hr width="100px" color="blue" text-align="center">
+                 </div>
+                 <div class="col">
+                    <div class="par">
+                        <h3>photography</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nihil ducimus nulla repellendus minima consequatur eum quaerat perspiciatis culpa ipsa adipisci tempore dolorum </p>
+                    </div>
+                    <div class="par">
+                        <h3>web development</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque deserunt quos eaque ex, culpa magnam molestiae, voluptas sapiente molestias voluptates, soluta officia </p>
+                    </div>
+                    <div class="par">
+                            <h3>content editing </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis commodi id reiciendis ipsum eos nisi iste placeat explicabo nulla ullam error, quam, nemo numquam unde perfe</p>
+                    </div>
+                 </div>       
+             </div>
+                <div id="bd4" class="body4">
+                    <div class="join">
+                    
+                        <div class="head4">       
+                        <h1>join our newsletter</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus iste eius voluptates quia deleniti consequuntur laborum in minima eligendi,<br> <span style="text-align: center;">sit fuga tempora quam quibusdam excepturi omnis? Quae in blanditiis perferendis?</span></p>  
+                            <hr width="100px" color="blue" text-align="center">
+                    </div>
+                </div>
+                <div class="in">
+                    <input type="email" placeholder="Email">
+                    <a href="">SUBSICRIBE NOW</a>
+                </div>
+
+                <footer>
+
+                    <p>MADE BY TUTORIALZINE. IMAGES COURTESY TO UNSPLASH. <br> NO ATTRIBUTION REQUIRED. YOU CAN REMOVE THIS FOOTER.</p>
+
+                </footer>
+
+
+            </div>
+
+</body>
+</html>
